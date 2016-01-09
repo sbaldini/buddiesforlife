@@ -2,7 +2,111 @@
    line-height: 1.6;
 }
 
-.logo {
-    display: block;
-    margin: auto;
+body {
+    background-color: #f5e9dc;
+    background-image: url('../img/bg.png');
+    background-repeat: repeat;
+}
+
+h1 {
+    margin-bottom: 2.5%;
+    font-family: 'Londrina Solid', sans-serif;
+    text-transform: lowercase;
+    font-size: 3.5em;
+    text-align: center;
+    color: #494643;
+}
+
+.navbar {
+ background-color: #fff;
+ height: 150px;
+ text-transform: uppercase;
+ z-index: 99;
+ position: fixed;
+ width: 100%;
+    
+}
+
+a {
+ color: #494643;
+}
+
+a:hover !important {
+    background-color: #7DD1D3;
+}
+
+p {
+    color: #494643;
+}
+
+
+.container {
+    margin-bottom: 5%;
+    position: relative;
+}
+
+.containermod {
+     position: relative;
+     top: 120px;
+}
+
+
+#navbar-primary .navbar-nav {
+  width: 100%;
+  text-align: center;
+}
+#navbar-primary .navbar-nav > li {
+  display: inline-block;
+  float: none;
+}
+#navbar-primary .navbar-nav > li > a {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.adjust {
+    position: relative;
+    top: -35px;
+}
+
+.jumbotron {
+    background: url('../img/dog.png') no-repeat center/cover;
+    position: relative;
+    top: 120px;
+    
+}
+
+h1.intro, p.intro {
+    color: #fff;
+    width: 330px;
+}
+
+.btn {
+    background-color: orange;
+    border-radius: 0;
+    border: none;
+    
+}
+
+.btn:hover {
+    background-color: darkorange;
+}
+
+.footer {
+    background-color: #7DD1D3;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    top: 120px;
+}
+
+.happytails {
+    width: 100%;
+    background-color: #7DD1D3;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 3em;
+
 }
